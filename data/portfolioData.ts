@@ -261,7 +261,7 @@ export const projects: Project[] = [
     slug: 'est4re',
     index: 1,
     title: 'eSt4re',
-    thumbnail: '/projects/project-thumbnail/eSt4re_thumbnail.jpeg',
+    thumbnail: '/projects/project-thumbnail/eSt4re_thumbnail.png',
     tagline: 'A full-stack e-commerce platform with inventory and QR payment integration.',
     liveUrl: 'https://est4re.vercel.app',
     summary:
