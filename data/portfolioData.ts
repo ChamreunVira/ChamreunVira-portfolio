@@ -348,7 +348,7 @@ export const projects: Project[] = [
     slug: 'khmer-social',
     index: 4,
     title: 'Khmer Social',
-    thumbnail: '/projects/project-thumbnail/KhmerSocial_thumbnail.jpeg',
+    thumbnail: '/projects/project-thumbnail/KhmerSocial_thumbnail.png',
     tagline: 'A social networking platform for sharing posts and connecting with friends.',
     liveUrl: 'http://khmer-social.vercel.app',
     summary:
