@@ -1,24 +1,3 @@
-import {
-  Atom,
-  Boxes,
-  Code,
-  Coffee,
-  Cpu,
-  Database,
-  KeyRound,
-  Languages,
-  Layers,
-  Leaf,
-  QrCode,
-  Server,
-  Triangle,
-  Wind,
-  Zap,
-  type LucideIcon,
-} from 'lucide-react';
-
-/* ----------------------------- Types ----------------------------- */
-
 export type WireframeVariant = 'journal' | 'storefront' | 'checkout' | 'dashboard' | 'feed' | 'mobile';
 export type ExperienceCategory = 'EDUCATION' | 'CAREER' | 'AWARD';
 export type TechCategory = 'Backend' | 'Frontend' | 'Data' | 'Hardware' | 'Tools';
