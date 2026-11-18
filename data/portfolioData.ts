@@ -237,8 +237,36 @@ export function getTechSkills(techIds: string[]): TechSkill[] {
 
 export const projects: Project[] = [
   {
-    slug: 'est4re',
+    slug: 'vpos',
     index: 1,
+    title: 'vPOS',
+    thumbnail: '/projects/project-thumbnail/vPOS_thumbnail.png',
+    tagline: 'A point-of-sale system for managing sales, inventory, and daily business operations.',
+    summary:
+      'A Laravel-based POS system featuring product management, sales processing, inventory tracking, customer management, and expense monitoring.',
+    idea: [
+      'vPOS is a point-of-sale system designed to simplify daily business operations by bringing product management, sales, inventory, and expense tracking into one platform.',
+      'The system provides product and category management, SKU generation, customer management, and inventory tracking. It also supports stock movements to help monitor changes in product quantities.',
+      'The sales workflow allows users to manage transactions, calculate totals, apply discounts, and generate sales records. The dashboard provides an overview of business activities and sales performance.',
+    ],
+    keyFlows: [
+      'Administrators manage products, categories, and product images.',
+      'Staff process sales transactions and manage customer information.',
+      'The system tracks inventory levels and records stock movements.',
+      'Administrators monitor expenses and review sales performance through dashboard analytics.',
+    ],
+    techStackIds: ['laravel', 'php', 'sqlite'],
+    accentColor: '#6366f1',
+    heroVariant: 'dashboard',
+    gallery: [
+      { src: '/projects/vPOS_admin.png', caption: 'POS dashboard' },
+      { src: '/projects/vPOS_product_management.png', caption: 'Product management' },
+      { src: '/projects/vPOS_sale_transaction.png', caption: 'Sales and transactions' },
+    ],
+  },
+  {
+    slug: 'est4re',
+    index: 2,
     title: 'eSt4re',
     thumbnail: '/projects/project-thumbnail/eSt4re_thumbnail.png',
     tagline: 'A full-stack e-commerce platform with inventory and QR payment integration.',
@@ -267,7 +295,7 @@ export const projects: Project[] = [
   },
   {
     slug: 'vst4re',
-    index: 2,
+    index: 3,
     title: 'vSt4re',
     thumbnail: '/projects/project-thumbnail/vSt4re_thumbnail.png',
     tagline: 'An e-commerce platform featuring Bakong KHQR payments.',
@@ -296,7 +324,7 @@ export const projects: Project[] = [
   },
   {
     slug: 'journal',
-    index: 3,
+    index: 4,
     title: 'Journal',
     thumbnail: '/projects/project-thumbnail/Journal_thumbnail.jpeg',
     tagline: 'A bilingual academic journal platform for student research.',
@@ -325,7 +353,7 @@ export const projects: Project[] = [
   },
   {
     slug: 'khmer-social',
-    index: 4,
+    index: 5,
     title: 'Khmer Social',
     thumbnail: '/projects/project-thumbnail/KhmerSocial_thumbnail.png',
     tagline: 'A social networking platform for sharing posts and connecting with friends.',
@@ -354,7 +382,7 @@ export const projects: Project[] = [
   },
   {
     slug: 'bacii',
-    index: 5,
+    index: 6,
     title: 'bacii',
     thumbnail: '/projects/project-thumbnail/BACII_thumbnail.jpeg',
     tagline: 'A BAC II calculator designed to help Cambodian students calculate exam results.',
