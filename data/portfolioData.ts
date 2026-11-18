@@ -457,7 +457,7 @@ export const experienceItems: ExperienceItem[] = [
   {
     id: 'rupp-computer-science',
     category: 'EDUCATION',
-    period: '2024 — Present',
+    period: 'Jan 2024 — Present',
     title: 'Bachelor of Computer Science',
     organization: 'Royal University of Phnom Penh (RUPP)',
     summary: 'Studying computer science fundamentals and applying them to practical software development projects.',
