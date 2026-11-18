@@ -413,6 +413,8 @@ export const projects: Project[] = [
 
 export const projectFilters: ProjectFilter[] = [
   { id: 'all', label: 'All' },
+  { id: 'laravel', label: 'Laravel' },
+  { id: 'express', label: 'Express.js' },
   { id: 'spring-boot', label: 'Spring Boot' },
   { id: 'next-js', label: 'Next.js' },
   { id: 'react', label: 'React' },
