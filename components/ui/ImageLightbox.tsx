@@ -126,7 +126,7 @@ export function ImageLightbox({ images, projectTitle }: ImageLightboxProps) {
               event.stopPropagation();
               closeLightbox();
             }}
-            className="absolute right-4 top-4 z-10 border border-paper/50 bg-ink p-2 text-paper transition-colors hover:bg-paper hover:text-ink sm:right-6 sm:top-6"
+            className="absolute rounded-full right-4 top-4 z-10 bg-ink p-2 text-paper transition-colors hover:bg-paper hover:text-ink sm:right-6 sm:top-6"
           >
             <X className="h-6 w-6" aria-hidden="true" />
           </button>
@@ -138,7 +138,7 @@ export function ImageLightbox({ images, projectTitle }: ImageLightboxProps) {
               event.stopPropagation();
               showPrevious();
             }}
-            className="absolute left-3 top-1/2 z-10 -translate-y-1/2 border border-paper/50 bg-ink p-2 text-paper transition-colors hover:bg-paper hover:text-ink sm:left-6"
+            className="absolute rounded-full left-3 top-1/2 z-10 -translate-y-1/2 bg-ink p-2 text-paper transition-colors hover:bg-paper hover:text-ink sm:left-6"
           >
             <ChevronLeft className="h-7 w-7" aria-hidden="true" />
           </button>
@@ -168,7 +168,7 @@ export function ImageLightbox({ images, projectTitle }: ImageLightboxProps) {
               event.stopPropagation();
               showNext();
             }}
-            className="absolute right-3 top-1/2 z-10 -translate-y-1/2 border border-paper/50 bg-ink p-2 text-paper transition-colors hover:bg-paper hover:text-ink sm:right-6"
+            className="absolute rounded-full right-3 top-1/2 z-10 -translate-y-1/2 bg-ink p-2 text-paper transition-colors hover:bg-paper hover:text-ink sm:right-6"
           >
             <ChevronRight className="h-7 w-7" aria-hidden="true" />
           </button>

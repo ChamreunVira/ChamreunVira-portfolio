@@ -55,7 +55,7 @@ export interface ProjectFilter {
 
 export const profile = {
   name: 'Chamreun Vira',
-  role: 'Full-Stack Developer',
+  role: 'Software Engineering',
   location: 'Phnom Penh, Cambodia',
   phone: '+855 97 3056 747',
   telegramHandle: 'ChamreunVira',
